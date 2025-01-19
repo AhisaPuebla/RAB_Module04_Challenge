@@ -112,23 +112,36 @@ namespace RAB_Module04_Challenge_Starter
             //a - push buttons
             PushButton button1 = panel.AddItem(buttonData1) as PushButton;
             PushButton button2 = panel.AddItem(buttonData2) as PushButton;
+            // images
+            buttonData1.LargeImage = ConvertToImageSource(Properties.Resources._1_32x32);
+            buttonData2.LargeImage = ConvertToImageSource(Properties.Resources._2_32x32); // ??
+
 
             //b - stacked row
             panel.AddStackedItems(buttonData3, buttonData4, buttonData5);
+            // images 
+            buttonData3.Image = ConvertToImageSource(Properties.Resources._3_16x16);
+            buttonData4.Image = ConvertToImageSource(Properties.Resources._4_16x16);
+            buttonData5.Image = ConvertToImageSource(Properties.Resources._5_16x16);
 
             //c - split button
             SplitButtonData splitButtonData = new SplitButtonData("SplitButton", "Split\rButton");
             SplitButton splitButton = panel.AddItem(splitButtonData) as SplitButton;
             splitButton.AddPushButton(buttonData6);
             splitButton.AddPushButton(buttonData7);
+            // images
+            buttonData6.Image = ConvertToImageSource(Properties.Resources._6_32x32);
+            buttonData7.Image = ConvertToImageSource(Properties.Resources._7_32x32);
 
             //d - pull down button
             PulldownButtonData pulldownButtonData = new PulldownButtonData("More tools", "Pulldown\rButton");
-            //pulldownButtonData.LargeImage = ConvertToImageSource(Properties.Resources.Green_32);
             PulldownButton pulldownButton = panel.AddItem(pulldownButtonData) as PulldownButton;
             pulldownButton.AddPushButton(buttonData8);
             pulldownButton.AddPushButton(buttonData9);
             pulldownButton.AddPushButton(buttonData10);
+            // images
+            pulldownButtonData.LargeImage = ConvertToImageSource(Properties.Resources._8_32x32);
+
 
 
 
@@ -152,6 +165,21 @@ namespace RAB_Module04_Challenge_Starter
             //return returnPanel;
 
             return app.CreateRibbonPanel(tabName1, panelName1);
+        }
+
+        public BitmapImage ConvertToImageSource(byte[] imageData)
+        {
+            using (MemoryStream mem = new MemoryStream(imageData))
+            {
+                mem.Position = 0;
+                BitmapImage bmi = new BitmapImage();
+                bmi.BeginInit();
+                bmi.StreamSource = mem;
+                bmi.CacheOption = BitmapCacheOption.OnLoad;
+                bmi.EndInit();
+
+                return bmi;
+            }
         }
 
         public Result OnShutdown(UIControlledApplication a)
