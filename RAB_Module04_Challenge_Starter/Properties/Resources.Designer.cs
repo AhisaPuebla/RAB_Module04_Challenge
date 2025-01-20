@@ -63,9 +63,9 @@ namespace RAB_Module04_Challenge_Starter.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] _1_32x32 {
+        internal static byte[] eight_32x32 {
             get {
-                object obj = ResourceManager.GetObject("1_32x32", resourceCulture);
+                object obj = ResourceManager.GetObject("eight_32x32", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -73,9 +73,9 @@ namespace RAB_Module04_Challenge_Starter.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] _10_32x32 {
+        internal static byte[] five_16x16 {
             get {
-                object obj = ResourceManager.GetObject("10_32x32", resourceCulture);
+                object obj = ResourceManager.GetObject("five_16x16", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -83,9 +83,9 @@ namespace RAB_Module04_Challenge_Starter.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] _2_32x32 {
+        internal static byte[] four_16x16 {
             get {
-                object obj = ResourceManager.GetObject("2_32x32", resourceCulture);
+                object obj = ResourceManager.GetObject("four_16x16", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace RAB_Module04_Challenge_Starter.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] _3_16x16 {
+        internal static byte[] Image01 {
             get {
-                object obj = ResourceManager.GetObject("3_16x16", resourceCulture);
+                object obj = ResourceManager.GetObject("Image01", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -103,9 +103,9 @@ namespace RAB_Module04_Challenge_Starter.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] _4_16x16 {
+        internal static byte[] nine_32x32 {
             get {
-                object obj = ResourceManager.GetObject("4_16x16", resourceCulture);
+                object obj = ResourceManager.GetObject("nine_32x32", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -113,9 +113,9 @@ namespace RAB_Module04_Challenge_Starter.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] _5_16x16 {
+        internal static byte[] one_32x32 {
             get {
-                object obj = ResourceManager.GetObject("5_16x16", resourceCulture);
+                object obj = ResourceManager.GetObject("one_32x32", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -123,9 +123,9 @@ namespace RAB_Module04_Challenge_Starter.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] _6_32x32 {
+        internal static byte[] seven_32x32 {
             get {
-                object obj = ResourceManager.GetObject("6_32x32", resourceCulture);
+                object obj = ResourceManager.GetObject("seven_32x32", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -133,9 +133,9 @@ namespace RAB_Module04_Challenge_Starter.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] _7_32x32 {
+        internal static byte[] six_32x32 {
             get {
-                object obj = ResourceManager.GetObject("7_32x32", resourceCulture);
+                object obj = ResourceManager.GetObject("six_32x32", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -143,9 +143,9 @@ namespace RAB_Module04_Challenge_Starter.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] _8_32x32 {
+        internal static byte[] ten_32x32 {
             get {
-                object obj = ResourceManager.GetObject("8_32x32", resourceCulture);
+                object obj = ResourceManager.GetObject("ten_32x32", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -153,9 +153,19 @@ namespace RAB_Module04_Challenge_Starter.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        internal static byte[] _9_32x32 {
+        internal static byte[] three_16x16 {
             get {
-                object obj = ResourceManager.GetObject("9_32x32", resourceCulture);
+                object obj = ResourceManager.GetObject("three_16x16", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] two_32x32 {
+            get {
+                object obj = ResourceManager.GetObject("two_32x32", resourceCulture);
                 return ((byte[])(obj));
             }
         }

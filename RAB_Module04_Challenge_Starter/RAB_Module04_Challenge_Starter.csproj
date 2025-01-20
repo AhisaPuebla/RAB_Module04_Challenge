@@ -71,29 +71,32 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <None Remove="Resources\10_32x32.png" />
 	  <None Remove="Resources\1_32x32.png" />
 	  <None Remove="Resources\2_32x32.png" />
 	  <None Remove="Resources\3_16x16.png" />
-	  <None Remove="Resources\4_16x16.png" />
-	  <None Remove="Resources\5_16x16.png" />
-	  <None Remove="Resources\6_32x32.png" />
-	  <None Remove="Resources\7_32x32.png" />
-	  <None Remove="Resources\8_32x32.png" />
-	  <None Remove="Resources\9_32x32.png" />
+	  <None Remove="Resources\eight_32x32.png" />
+	  <None Remove="Resources\five_16x16.png" />
+	  <None Remove="Resources\four_16x16.png" />
+	  <None Remove="Resources\nine_32x32.png" />
+	  <None Remove="Resources\one_32x32.png" />
+	  <None Remove="Resources\seven_32x32.png" />
+	  <None Remove="Resources\six_32x32.png" />
+	  <None Remove="Resources\ten_32x32.png" />
+	  <None Remove="Resources\three_16x16.png" />
+	  <None Remove="Resources\two_32x32.png" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <EmbeddedResource Include="Resources\10_32x32.png" />
-	  <EmbeddedResource Include="Resources\1_32x32.png" />
-	  <EmbeddedResource Include="Resources\2_32x32.png" />
-	  <EmbeddedResource Include="Resources\3_16x16.png" />
-	  <EmbeddedResource Include="Resources\4_16x16.png" />
-	  <EmbeddedResource Include="Resources\5_16x16.png" />
-	  <EmbeddedResource Include="Resources\6_32x32.png" />
-	  <EmbeddedResource Include="Resources\7_32x32.png" />
-	  <EmbeddedResource Include="Resources\8_32x32.png" />
-	  <EmbeddedResource Include="Resources\9_32x32.png" />
+	  <EmbeddedResource Include="Resources\eight_32x32.png" />
+	  <EmbeddedResource Include="Resources\five_16x16.png" />
+	  <EmbeddedResource Include="Resources\four_16x16.png" />
+	  <EmbeddedResource Include="Resources\nine_32x32.png" />
+	  <EmbeddedResource Include="Resources\one_32x32.png" />
+	  <EmbeddedResource Include="Resources\seven_32x32.png" />
+	  <EmbeddedResource Include="Resources\six_32x32.png" />
+	  <EmbeddedResource Include="Resources\ten_32x32.png" />
+	  <EmbeddedResource Include="Resources\three_16x16.png" />
+	  <EmbeddedResource Include="Resources\two_32x32.png" />
 	</ItemGroup>
 	
 	<ItemGroup>

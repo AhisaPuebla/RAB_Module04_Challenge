@@ -113,16 +113,16 @@ namespace RAB_Module04_Challenge_Starter
             PushButton button1 = panel.AddItem(buttonData1) as PushButton;
             PushButton button2 = panel.AddItem(buttonData2) as PushButton;
             // images
-            buttonData1.LargeImage = ConvertToImageSource(Properties.Resources._1_32x32);
-            buttonData2.LargeImage = ConvertToImageSource(Properties.Resources._2_32x32); // ??
+            buttonData1.LargeImage = ConvertToImageSource(Properties.Resources.Image01); // ?? NOT WORKING
+            buttonData2.LargeImage = ConvertToImageSource(Properties.Resources.two_32x32); // ?? 
 
 
             //b - stacked row
             panel.AddStackedItems(buttonData3, buttonData4, buttonData5);
             // images 
-            buttonData3.Image = ConvertToImageSource(Properties.Resources._3_16x16);
-            buttonData4.Image = ConvertToImageSource(Properties.Resources._4_16x16);
-            buttonData5.Image = ConvertToImageSource(Properties.Resources._5_16x16);
+            buttonData3.Image = ConvertToImageSource(Properties.Resources.three_16x16);
+            buttonData4.Image = ConvertToImageSource(Properties.Resources.four_16x16);
+            buttonData5.Image = ConvertToImageSource(Properties.Resources.five_16x16);
 
             //c - split button
             SplitButtonData splitButtonData = new SplitButtonData("SplitButton", "Split\rButton");
@@ -130,8 +130,8 @@ namespace RAB_Module04_Challenge_Starter
             splitButton.AddPushButton(buttonData6);
             splitButton.AddPushButton(buttonData7);
             // images
-            buttonData6.Image = ConvertToImageSource(Properties.Resources._6_32x32);
-            buttonData7.Image = ConvertToImageSource(Properties.Resources._7_32x32);
+            buttonData6.Image = ConvertToImageSource(Properties.Resources.six_32x32);
+            buttonData7.Image = ConvertToImageSource(Properties.Resources.seven_32x32);
 
             //d - pull down button
             PulldownButtonData pulldownButtonData = new PulldownButtonData("More tools", "Pulldown\rButton");
@@ -140,7 +140,7 @@ namespace RAB_Module04_Challenge_Starter
             pulldownButton.AddPushButton(buttonData9);
             pulldownButton.AddPushButton(buttonData10);
             // images
-            pulldownButtonData.LargeImage = ConvertToImageSource(Properties.Resources._8_32x32);
+            pulldownButtonData.LargeImage = ConvertToImageSource(Properties.Resources.eight_32x32);
 
 
 
