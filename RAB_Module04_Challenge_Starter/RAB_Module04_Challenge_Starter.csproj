@@ -77,6 +77,7 @@
 	  <None Remove="Resources\eight_32x32.png" />
 	  <None Remove="Resources\five_16x16.png" />
 	  <None Remove="Resources\four_16x16.png" />
+	  <None Remove="Resources\Image01.png" />
 	  <None Remove="Resources\nine_32x32.png" />
 	  <None Remove="Resources\one_32x32.png" />
 	  <None Remove="Resources\seven_32x32.png" />
@@ -84,6 +85,10 @@
 	  <None Remove="Resources\ten_32x32.png" />
 	  <None Remove="Resources\three_16x16.png" />
 	  <None Remove="Resources\two_32x32.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Resources\Image01.png" />
 	</ItemGroup>
 
 	<ItemGroup>
