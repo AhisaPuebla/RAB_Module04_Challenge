@@ -74,34 +74,15 @@
 	  <None Remove="Resources\1_32x32.png" />
 	  <None Remove="Resources\2_32x32.png" />
 	  <None Remove="Resources\3_16x16.png" />
-	  <None Remove="Resources\eight_32x32.png" />
-	  <None Remove="Resources\five_16x16.png" />
-	  <None Remove="Resources\four_16x16.png" />
-	  <None Remove="Resources\Image01.png" />
-	  <None Remove="Resources\nine_32x32.png" />
-	  <None Remove="Resources\one_32x32.png" />
-	  <None Remove="Resources\seven_32x32.png" />
-	  <None Remove="Resources\six_32x32.png" />
-	  <None Remove="Resources\ten_32x32.png" />
-	  <None Remove="Resources\three_16x16.png" />
-	  <None Remove="Resources\two_32x32.png" />
+	  <None Remove="Resources\Blue_32.png" />
+	  <None Remove="Resources\one_16.png" />
+	  <None Remove="Resources\two_16.png" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <EmbeddedResource Include="Resources\Image01.png" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <EmbeddedResource Include="Resources\eight_32x32.png" />
-	  <EmbeddedResource Include="Resources\five_16x16.png" />
-	  <EmbeddedResource Include="Resources\four_16x16.png" />
-	  <EmbeddedResource Include="Resources\nine_32x32.png" />
-	  <EmbeddedResource Include="Resources\one_32x32.png" />
-	  <EmbeddedResource Include="Resources\seven_32x32.png" />
-	  <EmbeddedResource Include="Resources\six_32x32.png" />
-	  <EmbeddedResource Include="Resources\ten_32x32.png" />
-	  <EmbeddedResource Include="Resources\three_16x16.png" />
-	  <EmbeddedResource Include="Resources\two_32x32.png" />
+	  <EmbeddedResource Include="Resources\Blue_32.png" />
+	  <EmbeddedResource Include="Resources\one_16.png" />
+	  <EmbeddedResource Include="Resources\two_16.png" />
 	</ItemGroup>
 	
 	<ItemGroup>

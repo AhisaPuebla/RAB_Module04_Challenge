@@ -118,37 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="eight_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\eight_32x32.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="five_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\five_16x16.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="four_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\four_16x16.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="Image01" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Image01.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="nine_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\nine_32x32.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="one_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\one_32x32.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="seven_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\seven_32x32.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="six_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\six_32x32.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="ten_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ten_32x32.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="three_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\three_16x16.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="two_32x32" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\two_32x32.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="Blue_32" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Blue_32.png;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
